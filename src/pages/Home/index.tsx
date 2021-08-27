@@ -6,7 +6,7 @@ import {captureScreen} from "react-native-view-shot";
 
 const Home = () => {
     const [inputText, setInputText] = useState('');
-
+      
     const takeScreenShot = () => {
         captureScreen({
           format: 'jpg',
